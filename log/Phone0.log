@@ -1,0 +1,242 @@
+2018-09-16 14:03:22:900 - info: [Appium] Welcome to Appium v1.8.1
+2018-09-16 14:03:22:901 - info: [Appium] Non-default server args:
+2018-09-16 14:03:22:902 - info: [Appium]   port: 4700
+2018-09-16 14:03:22:902 - info: [Appium]   bootstrapPort: 4900
+2018-09-16 14:03:22:902 - info: [Appium]   sessionOverride: true
+2018-09-16 14:03:22:902 - info: [Appium]   log: ./log/Phone0.log
+2018-09-16 14:03:22:903 - info: [Appium]   udid: 3HX7N16C12000285
+2018-09-16 14:03:22:903 - info: [Appium]   noReset: true
+2018-09-16 14:03:22:903 - warn: [Appium] Deprecated server args:
+2018-09-16 14:03:22:903 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"3HX7N16C12000285"}'
+2018-09-16 14:03:22:904 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-09-16 14:03:22:904 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-16 14:03:22:904 - info: [Appium]   udid: 3HX7N16C12000285
+2018-09-16 14:03:22:904 - info: [Appium]   noReset: true
+2018-09-16 14:03:22:939 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2018-09-16 14:03:23:197 - info: [HTTP] --> POST /wd/hub/session
+2018-09-16 14:03:23:197 - info: [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"platformName":"Android","automationName":"uiautomator2","deviceName":"3HX7N16C12000285","app":"D:\\com.webank.wemoney.1809051630.apk","appPackage":"com.webank.wemoney","appActivity":"com.webank.wemoney.EmptyActivity","noReset":true}}
+2018-09-16 14:03:23:200 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","automationName":"uiautomator2","deviceName":"3HX7N16C12000285","app":"D:\\com.webank.wemoney.1809051630.apk","appPackage":"com.webank.wemoney","appActivity":"com.webank.wemoney.EmptyActivity","noReset":true},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+2018-09-16 14:03:23:201 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1537106603201 (22:03:23 GMT+0800 (中国标准时间))
+2018-09-16 14:03:23:204 - warn: [BaseDriver] The capabilities ["udid","noReset"] are not standard capabilities and should have an extension prefix
+2018-09-16 14:03:23:207 - warn: [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+2018-09-16 14:03:23:207 - warn: [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["udid","noReset","platformName","automationName","deviceName","app","appPackage","appActivity"]. Falling back to JSONWP protocol.
+2018-09-16 14:03:23:208 - info: [Appium] Creating new AndroidUiautomator2Driver (v1.16.0) session
+2018-09-16 14:03:23:208 - info: [Appium] Capabilities:
+2018-09-16 14:03:23:208 - info: [Appium]   udid: 3HX7N16C12000285
+2018-09-16 14:03:23:208 - info: [Appium]   noReset: true
+2018-09-16 14:03:23:209 - info: [Appium]   platformName: Android
+2018-09-16 14:03:23:209 - info: [Appium]   automationName: uiautomator2
+2018-09-16 14:03:23:209 - info: [Appium]   deviceName: 3HX7N16C12000285
+2018-09-16 14:03:23:209 - info: [Appium]   app: D:\com.webank.wemoney.1809051630.apk
+2018-09-16 14:03:23:209 - info: [Appium]   appPackage: com.webank.wemoney
+2018-09-16 14:03:23:209 - info: [Appium]   appActivity: com.webank.wemoney.EmptyActivity
+2018-09-16 14:03:23:212 - info: [debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"udid":"3HX7N16C12000285",...
+2018-09-16 14:03:23:215 - info: [BaseDriver] Session created with session id: f9e301ad-e85c-4e5f-81ca-30127494c207
+2018-09-16 14:03:23:233 - info: [BaseDriver] Using local app 'D:\com.webank.wemoney.1809051630.apk'
+2018-09-16 14:03:23:233 - info: [debug] [UiAutomator2] Checking whether app is actually present
+2018-09-16 14:03:23:740 - info: [AndroidDriver] Java version is: 1.8.0_171
+2018-09-16 14:03:23:742 - info: [ADB] Checking whether adb is present
+2018-09-16 14:03:23:746 - info: [ADB] Found 1 'build-tools' folders under 'D:\sdk' (newest first):
+2018-09-16 14:03:23:746 - info: [ADB]     D:/sdk/build-tools/android-4.3
+2018-09-16 14:03:23:746 - info: [ADB] Using adb.exe from D:\sdk\platform-tools\adb.exe
+2018-09-16 14:03:23:746 - info: [AndroidDriver] Retrieving device list
+2018-09-16 14:03:23:747 - info: [debug] [ADB] Trying to find a connected android device
+2018-09-16 14:03:23:747 - info: [debug] [ADB] Getting connected devices...
+2018-09-16 14:03:23:773 - info: [debug] [ADB] 1 device(s) connected
+2018-09-16 14:03:23:773 - info: [AndroidDriver] Using device: 3HX7N16C12000285
+2018-09-16 14:03:23:774 - info: [debug] [ADB] Setting device id to 3HX7N16C12000285
+2018-09-16 14:03:23:775 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell getprop ro.build.version.sdk'
+2018-09-16 14:03:23:829 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 24
+2018-09-16 14:03:23:829 - info: [debug] [ADB] Device API level: 24
+2018-09-16 14:03:23:830 - info: [ADB] Getting device platform version
+2018-09-16 14:03:23:830 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell getprop ro.build.version.release'
+2018-09-16 14:03:23:877 - info: [debug] [ADB] Current device property 'ro.build.version.release': 7.0
+2018-09-16 14:03:23:878 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell wm size'
+2018-09-16 14:03:24:239 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell wm density'
+2018-09-16 14:03:24:569 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell getprop ro.product.model'
+2018-09-16 14:03:24:608 - info: [debug] [ADB] Current device property 'ro.product.model': MHA-AL00
+2018-09-16 14:03:24:609 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell getprop ro.product.manufacturer'
+2018-09-16 14:03:24:645 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+2018-09-16 14:03:24:646 - info: [debug] [ADB] Device API level: 24
+2018-09-16 14:03:24:647 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell am force-stop io.appium.uiautomator2.server'
+2018-09-16 14:03:25:023 - info: [debug] [ADB] Checking app cert for C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.15.0.apk
+2018-09-16 14:03:25:025 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in D:\sdk\platform-tools\apksigner.bat,D:\sdk\emulator\apksigner.bat,D:\sdk\tools\apksigner.bat,D:\sdk\tools\bin\apksigner.bat,D:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'D:\sdk'?
+2018-09-16 14:03:25:265 - info: [debug] [ADB] 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.15.0.apk' is already signed.
+2018-09-16 14:03:25:265 - info: [debug] [ADB] Checking app cert for C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2018-09-16 14:03:25:266 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in D:\sdk\platform-tools\apksigner.bat,D:\sdk\emulator\apksigner.bat,D:\sdk\tools\apksigner.bat,D:\sdk\tools\bin\apksigner.bat,D:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'D:\sdk'?
+2018-09-16 14:03:25:522 - info: [debug] [ADB] 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2018-09-16 14:03:25:524 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2018-09-16 14:03:25:524 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell pm list packages io.appium.uiautomator2.server'
+2018-09-16 14:03:25:888 - info: [debug] [ADB] App is installed
+2018-09-16 14:03:25:889 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2018-09-16 14:03:25:889 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell dumpsys package io.appium.uiautomator2.server'
+2018-09-16 14:03:25:931 - info: [ADB] Checking whether aapt is present
+2018-09-16 14:03:25:932 - info: [ADB] Using aapt.exe from D:\sdk\tools\aapt.exe
+2018-09-16 14:03:25:954 - info: [debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.15.0' >= '1.15.0')
+2018-09-16 14:03:25:955 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2018-09-16 14:03:25:955 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell pm list packages io.appium.uiautomator2.server.test'
+2018-09-16 14:03:26:291 - info: [debug] [ADB] App is installed
+2018-09-16 14:03:26:291 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+2018-09-16 14:03:26:291 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell dumpsys package io.appium.uiautomator2.server.test'
+2018-09-16 14:03:26:358 - warn: [ADB] Cannot read version codes of 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2018-09-16 14:03:26:358 - warn: [ADB] Cannot read version names of 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+2018-09-16 14:03:26:358 - info: [debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2018-09-16 14:03:26:359 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell pm list instrumentation'
+2018-09-16 14:03:26:720 - info: [debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2018-09-16 14:03:26:721 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 wait-for-device'
+2018-09-16 14:03:26:742 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell echo ping'
+2018-09-16 14:03:26:772 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-09-16 14:03:26:772 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-09-16 14:03:26:773 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell pm list packages io.appium.settings'
+2018-09-16 14:03:27:143 - info: [debug] [ADB] App is installed
+2018-09-16 14:03:27:143 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-09-16 14:03:27:144 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell dumpsys package io.appium.settings'
+2018-09-16 14:03:27:202 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-09-16 14:03:27:202 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell ps'
+2018-09-16 14:03:27:278 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-09-16 14:03:27:278 - info: [debug] [ADB] Device API level: 24
+2018-09-16 14:03:27:279 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell appops set io.appium.settings android\:mock_location allow'
+2018-09-16 14:03:27:317 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-09-16 14:03:27:317 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-09-16 14:03:27:318 - info: [debug] [Logcat] Starting logcat capture
+2018-09-16 14:03:27:348 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-09-16 14:03:27:348 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-09-16 14:03:27:348 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell pm list packages io.appium.unlock'
+2018-09-16 14:03:27:709 - info: [debug] [ADB] App is installed
+2018-09-16 14:03:27:709 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-09-16 14:03:27:709 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell dumpsys package io.appium.unlock'
+2018-09-16 14:03:27:769 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-09-16 14:03:27:770 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8211
+2018-09-16 14:03:27:770 - info: [debug] [ADB] Forwarding system: 8211 to device: 6790
+2018-09-16 14:03:27:770 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 forward tcp\:8211 tcp\:6790'
+2018-09-16 14:03:27:792 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell rm -rf /data/local/tmp/strings.json'
+2018-09-16 14:03:27:821 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-09-16 14:03:27:822 - info: [debug] [AndroidDriver] D:\com.webank.wemoney.1809051630.apk
+2018-09-16 14:03:27:822 - info: [debug] [AndroidDriver] null
+2018-09-16 14:03:27:822 - info: [debug] [AndroidDriver] C:\Users\ADMINI~1\AppData\Local\Temp\com.webank.wemoney
+2018-09-16 14:03:27:823 - info: [debug] [ADB] Extracting strings for language: default
+2018-09-16 14:03:27:932 - info: [ADB] Successfully extracted 512 strings from 'D:\com.webank.wemoney.1809051630.apk' resources for '(default)' configuration
+2018-09-16 14:03:27:939 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 push C\:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\com.webank.wemoney\\strings.json /data/local/tmp'
+2018-09-16 14:03:28:056 - info: [debug] [ADB] Checking app cert for D:\com.webank.wemoney.1809051630.apk
+2018-09-16 14:03:28:056 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in D:\sdk\platform-tools\apksigner.bat,D:\sdk\emulator\apksigner.bat,D:\sdk\tools\apksigner.bat,D:\sdk\tools\bin\apksigner.bat,D:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'D:\sdk'?
+2018-09-16 14:03:28:943 - info: [debug] [ADB] 'D:\com.webank.wemoney.1809051630.apk' is already signed.
+2018-09-16 14:03:28:944 - info: [debug] [ADB] Getting install status for com.webank.wemoney
+2018-09-16 14:03:28:944 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell pm list packages com.webank.wemoney'
+2018-09-16 14:03:29:296 - info: [debug] [ADB] App is installed
+2018-09-16 14:03:29:296 - info: [debug] [ADB] Getting package info for 'com.webank.wemoney'
+2018-09-16 14:03:29:296 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell dumpsys package com.webank.wemoney'
+2018-09-16 14:03:29:373 - info: [debug] [ADB] The installed 'com.webank.wemoney' package does not require upgrade ('3.0.1' >= '3.0.1')
+2018-09-16 14:03:29:374 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-16 14:03:29:374 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell ps'
+2018-09-16 14:03:29:453 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell am force-stop io.appium.uiautomator2.server'
+2018-09-16 14:03:29:788 - info: [UiAutomator2] Starting uiautomator2 server 1.15.0
+2018-09-16 14:03:29:789 - info: [UiAutomator2] Using UIAutomator2 server from 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.15.0.apk' and test from 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@1.15.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2018-09-16 14:03:29:789 - info: [UiAutomator2] Running command: 'adb -s 3HX7N16C12000285 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2018-09-16 14:03:29:791 - info: [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2018-09-16 14:03:29:792 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-09-16 14:03:29:793 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8211/wd/hub/status] with no body
+2018-09-16 14:03:30:809 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-09-16 14:03:30:810 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8211/wd/hub/status] with no body
+2018-09-16 14:03:31:821 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-09-16 14:03:31:821 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8211/wd/hub/status] with no body
+2018-09-16 14:03:31:869 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2018-09-16 14:03:31:870 - info: [debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+2018-09-16 14:03:31:870 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8211/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"udid":"3HX7N16C12000285","noReset":true,"platformName":"Android","automationName":"uiautomator2","deviceName":"3HX7N16C12000285","app":"D:\\com.webank.wemoney.1809051630.apk","appPackage":"com.webank.wemoney","appActivity":"com.webank.wemoney.EmptyActivity"},"udid":"3HX7N16C12000285","noReset":true,"platformName":"Android","automationName":"uiautomator2","deviceName":"3HX7N16C12000285","app":"D:\\com.webank.wemoney.1809051630.apk","appPackage":"com.webank.wemoney","appActivity":"com.webank.wemoney.EmptyActivity","deviceUDID":"3HX7N16C12000285","platformVersion":"7.0","deviceScreenSize":"1080x1920","deviceScreenDensity":440,"deviceModel":"MHA-AL00","deviceManufacturer":"HUAWEI","deviceApiLevel":24}}
+2018-09-16 14:03:31:886 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1","status":0,"value":"Created Session"}
+2018-09-16 14:03:31:887 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell dumpsys window'
+2018-09-16 14:03:31:952 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-09-16 14:03:31:952 - info: [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.webank.wemoney/com.webank.wemoney.EmptyActivity'. Starting it ourselves
+2018-09-16 14:03:31:953 - info: [debug] [ADB] Device API level: 24
+2018-09-16 14:03:31:953 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe -P 5037 -s 3HX7N16C12000285 shell am start -W -n com.webank.wemoney/com.webank.wemoney.EmptyActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-09-16 14:03:34:801 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/appium/device/pixel_ratio] with body: {}
+2018-09-16 14:03:34:811 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1\",\"status\":0,\"value\":2.75}"
+2018-09-16 14:03:34:813 - info: [debug] [JSONWP Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2018-09-16 14:03:34:814 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/appium/device/system_bars] with body: {}
+2018-09-16 14:03:34:823 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1\",\"status\":0,\"value\":{\"statusBar\":66}}"
+2018-09-16 14:03:34:824 - info: [debug] [JSONWP Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2018-09-16 14:03:34:824 - info: [debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/window/current/size] with body: {}
+2018-09-16 14:03:34:835 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1\",\"status\":0,\"value\":{\"height\":1821,\"width\":1080}}"
+2018-09-16 14:03:34:836 - info: [Appium] New AndroidUiautomator2Driver session created successfully, session f9e301ad-e85c-4e5f-81ca-30127494c207 added to master session list
+2018-09-16 14:03:34:837 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1537106614837 (22:03:34 GMT+0800 (中国标准时间))
+2018-09-16 14:03:34:838 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"udid":"3HX7N16C12000285","noReset":true,"platformName":"Android","automationName":"uiautomator2","deviceName":"3HX7N16C12000285","app":"D:\\com.webank.wemoney.1809051630.apk","appPackage":"com.webank.wemoney","appActivity":"com.webank.wemoney.EmptyActivity"},"udid":"3HX7N16C12000285","noReset":true,"platformName":"Android","automationName":"uiautomator2","deviceName":"3HX7N16C12000285","app":"D:\\com.webank.wemoney.1809051630.apk","appPackage":"com.webank.wemoney","appActivity":"com.webank.wemoney.EmptyActivity","deviceUDID":"3HX7N16C12000285","platformVersion":"7.0","deviceScreenSize":"1080x1920","deviceScreenDensity":440,"deviceModel":"MHA-AL00","deviceManufacturer":"HUAWEI","deviceApiLevel":24,"pixelRatio":2.75,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":1755}}
+2018-09-16 14:03:34:842 - info: [HTTP] <-- POST /wd/hub/session 200 11644 ms - 1084
+2018-09-16 14:03:34:842 - info: [HTTP] 
+2018-09-16 14:03:34:845 - info: [HTTP] --> POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/timeouts/implicit_wait
+2018-09-16 14:03:34:845 - info: [HTTP] {"ms":10000,"sessionId":"f9e301ad-e85c-4e5f-81ca-30127494c207"}
+2018-09-16 14:03:34:847 - info: [debug] [W3C] Calling AppiumDriver.implicitWait() with args: [10000,"f9e301ad-e85c-4e5f-81ca-30127494c207"]
+2018-09-16 14:03:34:856 - info: [debug] [BaseDriver] Set implicit wait to 10000ms
+2018-09-16 14:03:34:857 - info: [debug] [MJSONWP] Responding to client with driver.implicitWait() result: null
+2018-09-16 14:03:34:858 - info: [HTTP] <-- POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/timeouts/implicit_wait 200 13 ms - 76
+2018-09-16 14:03:34:858 - info: [HTTP] 
+2018-09-16 14:03:34:917 - info: [HTTP] --> POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element
+2018-09-16 14:03:34:917 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='定期+ 30天以上']","sessionId":"f9e301ad-e85c-4e5f-81ca-30127494c207"}
+2018-09-16 14:03:34:919 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='定期+ 30天以上']","f9e301ad-e85c-4e5f-81ca-30127494c207"]
+2018-09-16 14:03:34:921 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-09-16 14:03:34:922 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-09-16 14:03:34:923 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:34:923 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:35:392 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:35:392 - info: [debug] [BaseDriver] Waited for 470 ms so far
+2018-09-16 14:03:35:892 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:35:893 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:35:910 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:35:910 - info: [debug] [BaseDriver] Waited for 988 ms so far
+2018-09-16 14:03:36:411 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:36:412 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:36:434 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:36:435 - info: [debug] [BaseDriver] Waited for 1513 ms so far
+2018-09-16 14:03:36:935 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:36:935 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:36:955 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:36:956 - info: [debug] [BaseDriver] Waited for 2034 ms so far
+2018-09-16 14:03:37:457 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:37:458 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:37:481 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:37:481 - info: [debug] [BaseDriver] Waited for 2559 ms so far
+2018-09-16 14:03:37:983 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:37:984 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:38:019 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:38:019 - info: [debug] [BaseDriver] Waited for 3097 ms so far
+2018-09-16 14:03:38:522 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:38:523 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:38:611 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:38:611 - info: [debug] [BaseDriver] Waited for 3689 ms so far
+2018-09-16 14:03:39:111 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:39:111 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='定期+ 30天以上']","context":"","multiple":false}
+2018-09-16 14:03:40:163 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1","status":0,"value":{"ELEMENT":"21390eab-0110-4a1a-a189-2e9db9ede491"}}
+2018-09-16 14:03:40:164 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"21390eab-0110-4a1a-a189-2e9db9ede491"}
+2018-09-16 14:03:40:166 - info: [HTTP] <-- POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element 200 5247 ms - 122
+2018-09-16 14:03:40:166 - info: [HTTP] 
+2018-09-16 14:03:40:168 - info: [HTTP] --> POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element/21390eab-0110-4a1a-a189-2e9db9ede491/click
+2018-09-16 14:03:40:168 - info: [HTTP] {"id":"21390eab-0110-4a1a-a189-2e9db9ede491","sessionId":"f9e301ad-e85c-4e5f-81ca-30127494c207"}
+2018-09-16 14:03:40:169 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["21390eab-0110-4a1a-a189-2e9db9ede491","f9e301ad-e85c-4e5f-81ca-30127494c207"]
+2018-09-16 14:03:40:172 - info: [debug] [JSONWP Proxy] Matched '/element/21390eab-0110-4a1a-a189-2e9db9ede491/click' to command name 'click'
+2018-09-16 14:03:40:172 - info: [debug] [JSONWP Proxy] Proxying [POST /element/21390eab-0110-4a1a-a189-2e9db9ede491/click] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element/21390eab-0110-4a1a-a189-2e9db9ede491/click] with body: {"element":"21390eab-0110-4a1a-a189-2e9db9ede491"}
+2018-09-16 14:03:40:228 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1","status":0,"value":true}
+2018-09-16 14:03:40:229 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-09-16 14:03:40:230 - info: [HTTP] <-- POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element/21390eab-0110-4a1a-a189-2e9db9ede491/click 200 61 ms - 76
+2018-09-16 14:03:40:230 - info: [HTTP] 
+2018-09-16 14:03:40:232 - info: [HTTP] --> POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element
+2018-09-16 14:03:40:232 - info: [HTTP] {"using":"xpath","value":"//android.view.ViewGroup/android.view.View[1]","sessionId":"f9e301ad-e85c-4e5f-81ca-30127494c207"}
+2018-09-16 14:03:40:233 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.view.ViewGroup/android.view.View[1]","f9e301ad-e85c-4e5f-81ca-30127494c207"]
+2018-09-16 14:03:40:234 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-09-16 14:03:40:235 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-09-16 14:03:40:235 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:40:236 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup/android.view.View[1]","context":"","multiple":false}
+2018-09-16 14:03:40:390 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-09-16 14:03:40:390 - info: [debug] [BaseDriver] Waited for 155 ms so far
+2018-09-16 14:03:40:891 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-09-16 14:03:40:892 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element] with body: {"strategy":"xpath","selector":"//android.view.ViewGroup/android.view.View[1]","context":"","multiple":false}
+2018-09-16 14:03:42:361 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1","status":0,"value":{"ELEMENT":"314d22f7-ab28-475f-acae-33c03ad326b0"}}
+2018-09-16 14:03:42:361 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"314d22f7-ab28-475f-acae-33c03ad326b0"}
+2018-09-16 14:03:42:362 - info: [HTTP] <-- POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element 200 2130 ms - 122
+2018-09-16 14:03:42:362 - info: [HTTP] 
+2018-09-16 14:03:42:363 - info: [HTTP] --> POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element/314d22f7-ab28-475f-acae-33c03ad326b0/click
+2018-09-16 14:03:42:363 - info: [HTTP] {"id":"314d22f7-ab28-475f-acae-33c03ad326b0","sessionId":"f9e301ad-e85c-4e5f-81ca-30127494c207"}
+2018-09-16 14:03:42:364 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["314d22f7-ab28-475f-acae-33c03ad326b0","f9e301ad-e85c-4e5f-81ca-30127494c207"]
+2018-09-16 14:03:42:365 - info: [debug] [JSONWP Proxy] Matched '/element/314d22f7-ab28-475f-acae-33c03ad326b0/click' to command name 'click'
+2018-09-16 14:03:42:365 - info: [debug] [JSONWP Proxy] Proxying [POST /element/314d22f7-ab28-475f-acae-33c03ad326b0/click] to [POST http://localhost:8211/wd/hub/session/71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1/element/314d22f7-ab28-475f-acae-33c03ad326b0/click] with body: {"element":"314d22f7-ab28-475f-acae-33c03ad326b0"}
+2018-09-16 14:03:42:406 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"71ce4f8c-de0d-47ec-8f25-2a92c7d90ea1","status":0,"value":true}
+2018-09-16 14:03:42:407 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-09-16 14:03:42:408 - info: [HTTP] <-- POST /wd/hub/session/f9e301ad-e85c-4e5f-81ca-30127494c207/element/314d22f7-ab28-475f-acae-33c03ad326b0/click 200 44 ms - 76
+2018-09-16 14:03:42:408 - info: [HTTP] 
